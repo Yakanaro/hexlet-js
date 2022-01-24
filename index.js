@@ -1,7 +1,8 @@
-import _ from "lodash";
-console.log(_.last(["one", "two"]));
+import _ from 'lodash';
 
-const name = "James";
+console.log(_.last(['one', 'two']));
+
+const name = 'James';
 
 const person = { first: name };
 
@@ -11,4 +12,4 @@ const sayHelloLinting = (fName) => {
   console.log(`Hello linting, ${fName}`);
 };
 
-sayHelloLinting("James");
+sayHelloLinting('James');
